@@ -15,9 +15,9 @@ function Footer() {
 
         <div className="footer-section">
           <h3>Contact</h3>
-          <p>📞 +91 9876543210</p>
-          <p>📧 omkarphoto@gmail.com</p>
-          <p>📍 Pune, Maharashtra</p>
+          <p>📞 +91 9960006423</p>
+          <p>📧 somaPhotoStudio@gmail.com</p>
+          <p>📍 Subhash Nagar Barshi Dist. Solapur</p>
         </div>
 
         <div className="footer-section">
@@ -34,7 +34,7 @@ function Footer() {
       <hr className="footer-line" />
 
       <div className="footer-bottom">
-        © {new Date().getFullYear()} Omkar Photography | All Rights Reserved
+        © {new Date().getFullYear()} Soma Photography | All Rights Reserved
       </div>
 
     </footer>

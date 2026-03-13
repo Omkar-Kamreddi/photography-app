@@ -20,10 +20,27 @@ function Booking() {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(formData);
-    alert("Booking Request Sent!");
-  };
+  e.preventDefault();
+
+  const { name, phone, event, date, location, message } = formData;
+
+  const whatsappNumber = "918080170577"; // your WhatsApp number (country code required)
+
+  const text = `
+New Booking Request
+
+Name: ${name}
+Phone: ${phone}
+Event: ${event}
+Date: ${date}
+Location: ${location}
+Message: ${message}
+`;
+
+  const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(text)}`;
+
+  window.open(url, "_blank");
+};
 
   return (
     <section id="booking" className="booking" data-aos="fade-left">

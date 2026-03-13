@@ -1,10 +1,11 @@
 import { useState } from "react";
 import "../styles/gallary.css";
+import w1 from "../assets/w1.png";
 
 function Gallery() {
 
   const images = [
-    { url: "https://images.unsplash.com/photo-1519741497674-611481863552", category: "wedding" },
+    { url: w1, category: "wedding" },
     { url: "https://images.unsplash.com/photo-1520857014576-2c4f4c972b57", category: "portrait" },
     { url: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc", category: "wedding" },
     { url: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d", category: "events" },

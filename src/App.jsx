@@ -7,7 +7,6 @@ import Booking from "./components/Booking";
 import Footer from "./components/Footer";
 import WhatsAppButton from "./components/WhatsAppButton";
 import AlbumLayout from "./components/AlbumLayout";
-import Stats from "./components/Stats";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -26,7 +25,6 @@ function App() {
       <Navbar />
       <Hero />
       <Services />
-      <Stats />
       <AlbumLayout />
       <Gallary />
       <Booking />
