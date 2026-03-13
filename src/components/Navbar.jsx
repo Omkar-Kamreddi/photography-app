@@ -23,7 +23,7 @@ function Navbar() {
 
   <div className="navbar-inner">
 
-    <h2 className="logo">Omkar Photography</h2>
+    <h2 className="logo">SOMA PHOTOGRAPHY</h2>
 
     <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
       ☰
