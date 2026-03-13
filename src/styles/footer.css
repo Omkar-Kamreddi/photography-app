@@ -1,0 +1,60 @@
+.footer {
+  background: #000;
+  color: #fff;
+  padding: 50px 8% 20px;
+}
+
+/* container */
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+}
+
+/* section */
+
+.footer-section h3 {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.footer-section p {
+  color: #bbb;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+/* social links */
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.social-links a {
+  color: #bbb;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  color: white;
+}
+
+/* divider */
+
+.footer-line {
+  border: none;
+  border-top: 1px solid #333;
+  margin: 30px 0;
+}
+
+/* bottom */
+
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
+  color: #aaa;
+}
