@@ -24,7 +24,7 @@ function Booking() {
 
   const { name, phone, event, date, location, message } = formData;
 
-  const whatsappNumber = "918080170577"; // your WhatsApp number (country code required)
+  const whatsappNumber = "919960006423"; // your WhatsApp number (country code required)
 
   const text = `
 New Booking Request
