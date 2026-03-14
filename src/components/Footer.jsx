@@ -7,7 +7,7 @@ function Footer() {
       <div className="footer-container">
 
         <div className="footer-section">
-          <h3>Omkar Photography</h3>
+          <h3>Soma Photography</h3>
           <p>
             Capturing your beautiful moments with creativity and passion.
           </p>
@@ -16,7 +16,7 @@ function Footer() {
         <div className="footer-section">
           <h3>Contact</h3>
           <p>📞 +91 9960006423</p>
-          <p>📧 somaPhotoStudio@gmail.com</p>
+          <p>📧 somaphotostudio@gmail.com</p>
           <p>📍 Subhash Nagar Barshi Dist. Solapur</p>
         </div>
 

@@ -1,19 +1,27 @@
 import { useState } from "react";
 import "../styles/gallary.css";
 import w1 from "../assets/w1.png";
+import w2 from "../assets/w2.png";
+import w3 from "../assets/w3.png";
+import w5 from "../assets/w5.png";
+import w6 from "../assets/w6.png";
+import w7 from "../assets/w7.png";
+import w8 from "../assets/w8.png";
+import w9 from "../assets/w9.png";
+import w10 from "../assets/w10.png";
 
 function Gallery() {
 
   const images = [
     { url: w1, category: "wedding" },
-    { url: "https://images.unsplash.com/photo-1520857014576-2c4f4c972b57", category: "portrait" },
-    { url: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc", category: "wedding" },
-    { url: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d", category: "events" },
-    { url: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1", category: "portrait" },
-    { url: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1", category: "portrait" },
-    { url: "https://images.unsplash.com/photo-1511988617509-a57c8a288659", category: "events" },
-    { url: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486", category: "nature" },
-    { url: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee", category: "nature" }
+    { url: w5, category: "portrait" },
+    { url: w6, category: "wedding" },
+    { url: w7, category: "baby shoot" },
+    { url: w2, category: "portrait" },
+    { url: w3, category: "portrait" },
+    { url: w8, category: "baby shoot" },
+    { url: w9, category: "pre Wedding" },
+    { url: w10, category: "pre Wedding" }
   ];
 
   const [selectedImage, setSelectedImage] = useState(null);
@@ -36,8 +44,8 @@ function Gallery() {
         <button onClick={() => setFilter("all")}>All</button>
         <button onClick={() => setFilter("wedding")}>Wedding</button>
         <button onClick={() => setFilter("portrait")}>Portrait</button>
-        <button onClick={() => setFilter("events")}>Events</button>
-        <button onClick={() => setFilter("nature")}>Nature</button>
+        <button onClick={() => setFilter("baby shoot")}>Baby Shoot</button>
+        <button onClick={() => setFilter("pre Wedding")}>Pre Wedding</button>
 
       </div>
 

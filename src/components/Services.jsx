@@ -31,7 +31,7 @@ function Services() {
 
         <div className="service-card">
           <img src={baby} alt="Portrait" />
-          <h3>Baby Shoot Photography</h3>
+          <h3>Baby Shoot</h3>
           <p>Professional portrait photography sessions.</p>
         </div>
 

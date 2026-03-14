@@ -2,7 +2,7 @@ import "../styles/whatsapp.css";
 
 function WhatsAppButton() {
 
-  const phoneNumber = "919876543210"; // replace with your number
+  const phoneNumber = "919960006423"; // replace with your number
 
   const message = "Hello, I want to book a photography session.";
 
